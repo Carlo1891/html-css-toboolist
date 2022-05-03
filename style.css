@@ -1,0 +1,36 @@
+/* Resect */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.container{
+    width: auto;
+    height: 75px;
+    background-color: white;
+}
+
+#logo{
+    margin: auto 5px auto;
+    vertical-align: auto;
+}
+
+#logo-text{
+    font-size: 35px;
+}
+
+.box{
+    width: 700 px;
+    height: 500 px;
+    background-color: white;
+    margin: 25px auto 10px
+}
+
+hr{
+    color: lightgrey;
+}
