@@ -1,15 +1,19 @@
-/* Resect */
+/*Resect*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*Imposto colore sfondo*/
+
 body{
     background-color: lightgray;
 }
 
-.container{
+/*Intestazione sito con logo*/
+
+.heading{
     width: auto;
     height: 75px;
     background-color: white;
@@ -24,13 +28,17 @@ body{
     font-size: 35px;
 }
 
+/*Contenitore opzioni*/
+
 .box{
-    width: 700 px;
-    height: 500 px;
+    width: 750px;
+    height: 550px;
     background-color: white;
-    margin: 25px auto 10px
+    margin: 40px auto;
+    border-radius: 10px;
 }
 
-hr{
-    color: lightgrey;
+.first-container{
+    text-align: center;
+    margin: 40px auto;
 }
