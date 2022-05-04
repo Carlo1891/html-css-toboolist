@@ -5,70 +5,125 @@
     box-sizing: border-box;
 }
 
+li{
+    list-style: none;
+}
+
+/*Misura per riferimento rem*/
+
+html{
+    font-size: 16px;
+}
+
 /*Imposto colore sfondo*/
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: lightgray;
 }
 
 /*Intestazione sito con logo*/
 
-.heading{
-    width: auto;
+header{
     height: 75px;
     background-color: white;
+    padding: 10px 20px;
 }
 
 #logo{
-    margin: auto 5px auto;
-    padding: 10px 0 10px 10px ;
     vertical-align: middle;
+
 }
 
 #logo-text{
-    font-size: 35px;
-}
-
-/*Contenitore opzioni*/
-
-.box{
-    width: 650px;
-    height: 750px;
-    background-color: white;
-    margin: 40px auto;
-    border-radius: 10px;
-}
-
-.first-container{
-    text-align: left;
-    margin: 30px 30px;
-    padding: 20px;
-}
-
-.option-1{
-    border: 5px;
-    border-color: grey;
-    border-radius: 5px;
-    background-color: darkcyan;
-}
-
-.option-2{
+    vertical-align: middle;
+    font-size: 38px;
+    font-weight: bold;
     
-    border: 5px;
-    border-color: gray;
-    border-radius: 5px;
-    background-color: whitesmoke;
 }
 
-.second-container{
-    text-align: left;
-    margin: 30px 30px;
-    padding: 20px;
+/*Contenuto form*/
+
+.container{
+    margin: 30px;
+    padding: 20px 0 40px 0;
+    border-radius: 10px;
+    background-color: white;
 }
 
-/*Task*/
+.options{
+    padding: 10px 30px;
+    border-bottom: 5px solid lightgrey;
+}
 
-.journal{
-    background-color: lightskyblue;
+.btn{
+    padding: 5px 10px;
+    border: none;
     border-radius: 5px;
+}
+
+.btn-filled{
+    border: 1px solid #14aaf5;
+    background-color: #14aaf5;
+    color: #ffffff;
+}
+
+.btn-empty{
+    border: 1px solid #c4cbd0;
+    background-color: white;
+    color: #c4cbd0;
+}
+
+.tasks{
+    padding: 20px 50px;
+}
+
+li h3::before{
+    content: '\1401';
+}
+
+.circle::before{
+    border: 1px solid;
+    border-radius: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 10px;
+    margin-right: 10px;
+
+}
+
+li .circle.checked::before{
+    content: '\2713';
+    color: #2cc6ab;
+}
+
+li .circle.delete::before{
+    content: '\2573';
+    color: red;
+}
+
+.tag{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+.tag-type-1{
+    background-color: cornflowerblue;
+}
+
+.tag-type-2{
+    background-color: plum;
+}
+
+.tag-type-3{
+    background-color: green;
+}
+
+.tag-type-4{
+    background-color: orange;
 }
