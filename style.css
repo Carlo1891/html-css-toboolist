@@ -21,7 +21,8 @@ body{
 
 #logo{
     margin: auto 5px auto;
-    vertical-align: auto;
+    padding: 10px 0 10px 10px ;
+    vertical-align: middle;
 }
 
 #logo-text{
@@ -31,14 +32,43 @@ body{
 /*Contenitore opzioni*/
 
 .box{
-    width: 750px;
-    height: 550px;
+    width: 650px;
+    height: 750px;
     background-color: white;
     margin: 40px auto;
     border-radius: 10px;
 }
 
 .first-container{
-    text-align: center;
-    margin: 40px auto;
+    text-align: left;
+    margin: 30px 30px;
+    padding: 20px;
+}
+
+.option-1{
+    border: 5px;
+    border-color: grey;
+    border-radius: 5px;
+    background-color: darkcyan;
+}
+
+.option-2{
+    
+    border: 5px;
+    border-color: gray;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.second-container{
+    text-align: left;
+    margin: 30px 30px;
+    padding: 20px;
+}
+
+/*Task*/
+
+.journal{
+    background-color: lightskyblue;
+    border-radius: 5px;
 }
