@@ -1,54 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toboolist</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <header>
-
-        <img id="logo" src="./img/Logo.png" alt="logo boolean">
-        <span id="logo-text">Toboolist</span>
-    </header>
-
-    <main>
-
-        <div class="container">
-
-            <div class="options">
-
-               <a href="ciao"><button type="button" class="btn btn-filled">Add Task</button></a>
-                <a href="ciao"><button type="button" class="btn btn-empty">Add Section</button></a>
-
-            </div>
-            <div class="tasks">
-
-                <ul>
-                    <li>
-                        <h3> New Task </h3>
-
-                        <ul>
-                            <li><span class="circle checked"></span> Recruiting blog post <span class="tag tag-type-1">Editorial</span></li>
-                            <li><span class="circle checked"></span> Mobile app launch <span class="tag tag-type-2">Goals</span></li>
-                            <li><span class="circle delete"></span> Interview John H. <span class="tag tag-type-3">Recruiting</span></li>
-                            <li><span class="circle checked"></span> Recruiting blog post <span class="tag tag-type-4">Mobile</span></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toboolist</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
         
-        </div>
-        
+        <header>
+            <img id="logo" src="./img/Logo.png" alt="logo boolean">
+            <span id="logo-text">Toboolist</span>
+        </header>
 
-    </main>
+        <main>
 
-    <footer>
+            <div class="container">
 
-    </footer>
+                <div class="actions">
 
-</body>
+                    <a href="#"><button type="button" class="btn btn-filled">Add Task</button></a>
+                    <a href="#"><button type="button" class="btn btn-empty">Add Section</button></a>
+
+                </div>
+
+                <div class="tasks">
+                    <ul>
+                        <li>
+                            <h3> New Task </h3>
+                            <ul>
+                                <li><span class="circle checked"></span> Quarterly Newsletter <span class="tag tag-type-1">Editorial</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="tasks">
+                    <ul>
+                        <li>
+                            <h3> Today </h3>
+                            <ul>
+                                <li><span class="circle checked"></span> Recruiting blog post <span class="tag tag-type-1">Editorial</span></li>
+                                <li><span class="circle checked"></span> Mobile app launch <span class="tag tag-type-2">Goals</span></li>
+                                <li><span class="circle delete"></span> Interview John H. <span class="tag tag-type-3">Recruiting</span></li>
+                                <li><span class="circle checked"></span> Recruiting blog post <span class="tag tag-type-4">Mobile</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+
+                <div class="tasks">
+                    <ul>
+                        <li>
+                            <h3> Upcoming </h3>
+                            <ul>
+                                <li><span class="circle delete"></span> Schedule meeting with Alex
+                                <li><span class="circle checked"></span> Homepage refresh <span class="tag tag-type-5">Websites</span></li>
+                                <li><span class="circle delete"></span> Onboard new Sales team members <span class="tag tag-type-6">Sales</span></li>
+                                <li><span class="circle checked"></span> Review editorial calendar <span class="tag tag-type-1">Editorial</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </main>
+
+        <footer>
+
+        </footer>
+
+    </body>
 </html>

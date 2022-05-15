@@ -1,4 +1,5 @@
-/*Resect*/
+/*Resect e impostazioni comuni*/
+
 *{
     margin: 0;
     padding: 0;
@@ -9,13 +10,9 @@ li{
     list-style: none;
 }
 
-/*Misura per riferimento rem*/
-
 html{
     font-size: 16px;
 }
-
-/*Imposto colore sfondo*/
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -25,21 +22,19 @@ body{
 /*Intestazione sito con logo*/
 
 header{
-    height: 75px;
+    height: 70px;
     background-color: white;
     padding: 10px 20px;
 }
 
 #logo{
     vertical-align: middle;
-
 }
 
 #logo-text{
     vertical-align: middle;
-    font-size: 38px;
+    font-size: 40px;
     font-weight: bold;
-    
 }
 
 /*Contenuto form*/
@@ -51,9 +46,9 @@ header{
     background-color: white;
 }
 
-.options{
+.actions{
     padding: 10px 30px;
-    border-bottom: 5px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
 }
 
 .btn{
@@ -78,6 +73,10 @@ header{
     padding: 20px 50px;
 }
 
+ul li span{
+    line-height: 30px;
+}
+
 li h3::before{
     content: '\1401';
 }
@@ -92,7 +91,6 @@ li h3::before{
     text-align: center;
     font-size: 10px;
     margin-right: 10px;
-
 }
 
 li .circle.checked::before{
@@ -126,4 +124,12 @@ li .circle.delete::before{
 
 .tag-type-4{
     background-color: orange;
+}
+
+.tag-type-5{
+    background-color: rgb(155, 87, 65);
+}
+
+.tag-type-6{
+    background-color: lime;
 }
