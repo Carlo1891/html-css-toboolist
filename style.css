@@ -1,37 +1,37 @@
 /*Resect e impostazioni comuni*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-li{
+li {
     list-style: none;
 }
 
-html{
+html {
     font-size: 16px;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightgray;
 }
 
 /*Intestazione sito con logo*/
 
-header{
+header {
     height: 70px;
     background-color: white;
     padding: 10px 20px;
 }
 
-#logo{
+#logo {
     vertical-align: middle;
 }
 
-#logo-text{
+#logo-text {
     vertical-align: middle;
     font-size: 40px;
     font-weight: bold;
@@ -39,49 +39,49 @@ header{
 
 /*Contenuto form*/
 
-.container{
+.container {
     margin: 30px;
     padding: 20px 0 40px 0;
     border-radius: 10px;
     background-color: white;
 }
 
-.actions{
+.actions {
     padding: 10px 30px;
     border-bottom: 2px solid lightgrey;
 }
 
-.btn{
+.btn {
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
 }
 
-.btn-filled{
+.btn-filled {
     border: 1px solid #14aaf5;
     background-color: #14aaf5;
     color: #ffffff;
 }
 
-.btn-empty{
+.btn-empty {
     border: 1px solid #c4cbd0;
     background-color: white;
     color: #c4cbd0;
 }
 
-.tasks{
+.tasks {
     padding: 20px 50px;
 }
 
-ul li span{
+ul li span {
     line-height: 30px;
 }
 
-li h3::before{
+li h3::before {
     content: '\1401';
 }
 
-.circle::before{
+.circle::before {
     border: 1px solid;
     border-radius: 50%;
     display: inline-block;
@@ -93,43 +93,43 @@ li h3::before{
     margin-right: 10px;
 }
 
-li .circle.checked::before{
+li .circle.checked::before {
     content: '\2713';
     color: #2cc6ab;
 }
 
-li .circle.delete::before{
+li .circle.delete::before {
     content: '\2573';
     color: red;
 }
 
-.tag{
+.tag {
     padding: 5px 10px;
     border-radius: 10px;
     font-size: 10px;
     color: white;
 }
 
-.tag-type-1{
+.tag-type-1 {
     background-color: cornflowerblue;
 }
 
-.tag-type-2{
+.tag-type-2 {
     background-color: plum;
 }
 
-.tag-type-3{
+.tag-type-3 {
     background-color: green;
 }
 
-.tag-type-4{
+.tag-type-4 {
     background-color: orange;
 }
 
-.tag-type-5{
+.tag-type-5 {
     background-color: rgb(155, 87, 65);
 }
 
-.tag-type-6{
+.tag-type-6 {
     background-color: lime;
 }
