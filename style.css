@@ -69,6 +69,8 @@ header {
     color: #c4cbd0;
 }
 
+/* Bottoni Check e Uncheck */
+
 .tasks {
     padding: 20px 50px;
 }
@@ -133,3 +135,5 @@ li .circle.delete::before {
 .tag-type-6 {
     background-color: lime;
 }
+
+/* Footer non presente */
